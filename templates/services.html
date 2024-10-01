@@ -1,0 +1,126 @@
+{% extends 'base.html' %}
+
+{% block title %}Our Services - GulfHireX Recruitment Agency{% endblock %}
+
+{% block content %}
+<section class="py-16 bg-gray-100 bg-opacity-90">
+    <div class="container mx-auto text-center">
+        <h1 class="text-5xl font-bold mb-8">Our Services</h1>
+        <p class="text-lg text-gray-700 mb-12">
+            At GulfHireX, we provide comprehensive recruitment solutions tailored to meet the needs of both candidates and employers. Our expert team is dedicated to helping you achieve your career goals.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Job Placement Services -->
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <img src="{{ url_for('static', filename='images/job-placement.jpg') }}" alt="Job Placement Services" class="w-full h-40 object-cover rounded-t-lg">
+                <h2 class="text-2xl font-semibold mt-4">Job Placement Services</h2>
+                <p class="mt-2 text-gray-600">
+                    We connect talented individuals with leading companies across various industries, ensuring a perfect match for your skills and career aspirations.
+                </p>
+            </div>
+
+            <!-- Resume Writing Assistance -->
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <img src="{{ url_for('static', filename='images/resume-writing.jpg') }}" alt="Resume Writing Assistance" class="w-full h-40 object-cover rounded-t-lg">
+                <h2 class="text-2xl font-semibold mt-4">Resume Writing Assistance</h2>
+                <p class="mt-2 text-gray-600">
+                    Our professional resume writers will craft a compelling resume that highlights your strengths and accomplishments, making you stand out to potential employers.
+                </p>
+            </div>
+
+            <!-- Interview Coaching -->
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <img src="{{ url_for('static', filename='images/interview-coaching.jpg') }}" alt="Interview Coaching" class="w-full h-40 object-cover rounded-t-lg">
+                <h2 class="text-2xl font-semibold mt-4">Interview Coaching</h2>
+                <p class="mt-2 text-gray-600">
+                    Prepare for your interviews with our expert coaching sessions. We provide tips and techniques to help you present your best self to employers.
+                </p>
+            </div>
+
+            <!-- Visa and Immigration Support -->
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <img src="{{ url_for('static', filename='images/visa-support.jpg') }}" alt="Visa and Immigration Support" class="w-full h-40 object-cover rounded-t-lg">
+                <h2 class="text-2xl font-semibold mt-4">Visa and Immigration Support</h2>
+                <p class="mt-2 text-gray-600">
+                    Our team will guide you through the visa and immigration process, ensuring you have all the necessary documentation and support for a smooth transition.
+                </p>
+            </div>
+
+            <!-- Additional Service 1 -->
+    <div class="bg-white rounded-lg shadow-lg p-6">
+        <img src="{{ url_for('static', filename='images/additional-service-1.jpg') }}" alt="Job Market Research" class="w-full h-40 object-cover rounded-t-lg">
+        <h2 class="text-2xl font-semibold mt-4">Job Market Research</h2>
+        <p class="mt-2 text-gray-600">
+            Our team conducts comprehensive research on job markets to identify emerging trends, in-demand skills, and lucrative opportunities tailored for our candidates.
+        </p>
+    </div>
+
+    <!-- Additional Service 2 -->
+    <div class="bg-white rounded-lg shadow-lg p-6">
+        <img src="{{ url_for('static', filename='images/additional-service-2.jpg') }}" alt="Cultural Orientation" class="w-full h-40 object-cover rounded-t-lg">
+        <h2 class="text-2xl font-semibold mt-4">Cultural Orientation</h2>
+        <p class="mt-2 text-gray-600">
+            We provide cultural orientation sessions to prepare candidates for their new work environments, ensuring a smoother transition and better integration.
+        </p>
+    </div>
+
+    <!-- Additional Service 3 -->
+    <div class="bg-white rounded-lg shadow-lg p-6">
+        <img src="{{ url_for('static', filename='images/additional-service-3.jpg') }}" alt="Client Company Support" class="w-full h-40 object-cover rounded-t-lg">
+        <h2 class="text-2xl font-semibold mt-4">Client Company Support</h2>
+        <p class="mt-2 text-gray-600">
+            We assist companies with the recruitment process, offering tailored solutions to help them find the right talent efficiently and effectively.
+        </p>
+    </div>
+
+    <!-- Additional Service 4 -->
+    <div class="bg-white rounded-lg shadow-lg p-6">
+        <img src="{{ url_for('static', filename='images/additional-service-4.jpg') }}" alt="Post-Placement Follow-Up" class="w-full h-40 object-cover rounded-t-lg">
+        <h2 class="text-2xl font-semibold mt-4">Post-Placement Follow-Up</h2>
+        <p class="mt-2 text-gray-600">
+            We maintain communication with both candidates and employers post-placement to ensure satisfaction and address any concerns that may arise.
+        </p>
+    </div>
+
+    <!-- Additional Service 5 -->
+    <div class="bg-white rounded-lg shadow-lg p-6">
+        <img src="{{ url_for('static', filename='images/additional-service-5.jpg') }}" alt="Skills Assessment" class="w-full h-40 object-cover rounded-t-lg">
+        <h2 class="text-2xl font-semibold mt-4">Skills Assessment</h2>
+        <p class="mt-2 text-gray-600">
+            Our rigorous skills assessment process ensures that candidates are well-matched with job requirements, maximizing their potential for success.
+        </p>
+    </div>
+
+    <!-- Additional Service 6 -->
+    <div class="bg-white rounded-lg shadow-lg p-6">
+        <img src="{{ url_for('static', filename='images/additional-service-6.jpg') }}" alt="Networking Opportunities" class="w-full h-40 object-cover rounded-t-lg">
+        <h2 class="text-2xl font-semibold mt-4">Networking Opportunities</h2>
+        <p class="mt-2 text-gray-600">
+            We connect candidates with industry professionals through networking events and workshops, fostering valuable relationships for future opportunities.
+        </p>
+    </div>
+
+    <!-- Additional Service 7 -->
+    <div class="bg-white rounded-lg shadow-lg p-6">
+        <img src="{{ url_for('static', filename='images/additional-service-7.jpg') }}" alt="Legal Compliance Assistance" class="w-full h-40 object-cover rounded-t-lg">
+        <h2 class="text-2xl font-semibold mt-4">Legal Compliance Assistance</h2>
+        <p class="mt-2 text-gray-600">
+            We help clients navigate the complex legalities of hiring overseas, ensuring compliance with immigration and labor laws for smooth transitions.
+        </p>
+    </div>
+            <!-- Additional Service 8 -->
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <img src="{{ url_for('static', filename='images/additional-service-8.jpg') }}" alt="Salary Negotiation Support" class="w-full h-40 object-cover rounded-t-lg">
+                <h2 class="text-2xl font-semibold mt-4">Salary Negotiation Support</h2>
+                <p class="mt-2 text-gray-600">
+                    We provide candidates with expert guidance on salary negotiation, helping them secure competitive compensation packages that reflect their skills and experience.
+                </p>
+            </div>
+
+
+    </div>
+    </div>
+</section>
+{% endblock %}
+
